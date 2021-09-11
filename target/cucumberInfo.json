@@ -1,0 +1,60 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-10T17:04:32.036Z",
+        "line": 5,
+        "name": "Crear reserva de habitacion",
+        "description": "",
+        "id": "hacer-reserva-en-booking.com;crear-reserva-de-habitacion",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12175519300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "En la pagina Booking seccion alojamiento",
+            "match": {
+              "location": "stepDefinitions.techMahindra_stepDefinition.en_la_pagina_booking_seccion_alojamiento()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8407100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Selecciona la opcion que se ajuste a su condiciones",
+            "match": {
+              "location": "stepDefinitions.techMahindra_stepDefinition.selecciona_la_opcion_que_se_ajuste_a_su_condiciones()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1439466400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "La pagina le confirma la reserva",
+            "match": {
+              "location": "stepDefinitions.techMahindra_stepDefinition.la_pagina_le_confirma_la_reserva()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Hacer reserva en Booking.com",
+    "description": "  Como usuario, quiero hacer reserva de una habitaci�n en Booking.con",
+    "id": "hacer-reserva-en-booking.com",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/techMahindra.feature",
+    "tags": []
+  }
+]
