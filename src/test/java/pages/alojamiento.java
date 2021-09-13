@@ -8,4 +8,6 @@ public class alojamiento {
 	private By list_habitaciones = By.name("nr_rooms_32058207_302713223_1_1_0");
 	private By lb_price = By.xpath("//*[@id=\"hprt-form\"]/div[6]/div[2]/div[3]/div[2]/div/div[2]");
 	private By btn_reservare = By.xpath("//*[@id=\"b_tt_holder_2\"]");
+	
 }
+

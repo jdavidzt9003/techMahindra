@@ -3,7 +3,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-09-10T17:04:32.036Z",
+        "start_timestamp": "2021-09-13T15:52:00.846Z",
         "line": 5,
         "name": "Crear reserva de habitacion",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 12175519300,
+              "duration": 11879572400,
               "status": "passed"
             },
             "line": 6,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 8407100,
+              "duration": 8773256300,
               "status": "passed"
             },
             "line": 7,
@@ -37,7 +37,7 @@
           },
           {
             "result": {
-              "duration": 1439466400,
+              "duration": 927701200,
               "status": "passed"
             },
             "line": 8,
