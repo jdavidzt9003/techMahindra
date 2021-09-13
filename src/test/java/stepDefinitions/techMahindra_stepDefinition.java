@@ -12,6 +12,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import pages.alojamiento;
 import pages.homePage;
 
 public class techMahindra_stepDefinition {
@@ -40,11 +41,12 @@ public class techMahindra_stepDefinition {
 		homePage page = new homePage(driver);
 		page.clickAlojamiento();
 		page.datosIniciales("San Andrés, Islas San Andrés y Providencia, Colombia");
-	    
 	}
 	@Then("La pagina le confirma la reserva")
 	public void la_pagina_le_confirma_la_reserva() {
-		driver.close();
+		alojamiento aloja = new alojamiento(driver);
+		aloja.separarAlojamiento();
+		driver.quit();
 	}
 
 }

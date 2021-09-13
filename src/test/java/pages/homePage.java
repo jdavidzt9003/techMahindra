@@ -34,6 +34,7 @@ public class homePage {
 		driver.findElement(txt_fechas).click();
 		driver.findElement(initialDate).click();
 		driver.findElement(endDate).click();
+		//Thread.sleep(3000);
 		driver.findElement(txt_personas).click();
 		//driver.findElement(addAdults).click();
 		driver.findElement(addAdults).click();

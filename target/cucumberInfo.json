@@ -3,7 +3,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-09-13T15:52:00.846Z",
+        "start_timestamp": "2021-09-13T16:56:04.940Z",
         "line": 5,
         "name": "Crear reserva de habitacion",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 11879572400,
+              "duration": 34565704200,
               "status": "passed"
             },
             "line": 6,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 8773256300,
+              "duration": 7637575900,
               "status": "passed"
             },
             "line": 7,
@@ -37,8 +37,9 @@
           },
           {
             "result": {
-              "duration": 927701200,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/div[2]/div/div[5]/div[1]/div[1]/div[13]/div[1]/div[5]/div[4]/table/tbody/tr/td[3]/table/tbody/tr[1]/td/div/div[2]/div/span\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.0.0-rc-1\u0027, revision: \u0027bc5511cbda\u0027\nSystem info: host: \u0027JDAVIDZT9003\u0027, ip: \u0027192.168.1.56\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002714.0.2\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [f59e4bbb-d4d8-4124-90c5-c85a7bd66996, findElement {using\u003dxpath, value\u003d/html/body/div[2]/div/div[5]/div[1]/div[1]/div[13]/div[1]/div[5]/div[4]/table/tbody/tr/td[3]/table/tbody/tr[1]/td/div/div[2]/div/span}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 92.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210903235534, moz:debuggerAddress: localhost:61524, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 15140, moz:profile: C:\\Users\\jdavi\\AppData\\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:61524/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: f59e4bbb-d4d8-4124-90c5-c85a7bd66996\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:381)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:373)\r\n\tat pages.alojamiento.separarAlojamiento(alojamiento.java:25)\r\n\tat stepDefinitions.techMahindra_stepDefinition.la_pagina_le_confirma_la_reserva(techMahindra_stepDefinition.java:48)\r\n\tat ✽.La pagina le confirma la reserva(file:///C:/Users/jdavi/OneDrive/Documentos/misproyectos/Pruebas_Seleccion/TechMahindra/src/test/resources/features/techMahindra.feature:8)\r\n",
+              "duration": 812421400,
+              "status": "failed"
             },
             "line": 8,
             "name": "La pagina le confirma la reserva",
